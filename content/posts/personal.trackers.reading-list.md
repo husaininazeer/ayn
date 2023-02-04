@@ -1,7 +1,9 @@
 +++
 title = "2023 Reading List"
-desc = "A place for all the Books"
+description = "A place for all the Books"
 date = "2023-02-04"
+tags = ["reading-list"]
+author = "huscous"
 +++
 
 This is where all the books I read will go. Will keep updating when I finish/DNF.

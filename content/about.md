@@ -2,7 +2,6 @@
 title = "About"
 description = "A place for notes"
 date = "2023-02-03"
-aliases = ["about-us", "about-ayn", "contact"]
 tags = ["meta"]
 author = "huscous"
 +++
