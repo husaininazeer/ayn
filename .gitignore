@@ -1,0 +1,7 @@
+# public folder 
+public/
+
+# vim swap files
+*.swp
+*.swo
+
