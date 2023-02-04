@@ -1,12 +1,13 @@
-+++
-title = "2023 Reading List"
-description = "A place for all the Books"
-date = "2023-02-04"
-tags = ["reading-list"]
-author = "huscous"
-+++
+---
+title : 2023 Reading List
+summary : A place for all the books that will be read in 2023
+date : "2023-02-04"
+tags : 
+- reading-list
+author : huscous
+---
 
-This is where all the books I read will go. Will keep updating when I finish/DNF.
+Will keep updating when I finish/DNF. Some may include a summary or review. Not all are linked to a syllabus of some kind.
 
 | Name                                                                      | Status  |
 | ------------------------------------------------------------------------- | ------- |

@@ -1,10 +1,12 @@
-+++
-title = "About"
-description = "A place for notes"
-date = "2023-02-03"
-tags = ["meta"]
-author = "huscous"
-+++
+---
+title: About
+summary: All about ayn
+date: "2023-02-03"
+tags: 
+- meta
+author: huscous
+---
+
 
 ﷽
 
