@@ -6,4 +6,4 @@
 *.swo
 
 # lock files
-*.lock
+# *.lock
