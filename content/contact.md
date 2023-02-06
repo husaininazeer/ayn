@@ -16,4 +16,4 @@ summary: "How/where to get in touch"
 #     hidden: true # only hide on current single page
 ---
 
-For any feedback, email me [here](mailto:hello@hnazeer.com) or get in touch on [twitter](twitter.com/huscous)
+For any feedback, email me [here](mailto:hello@hnazeer.com) or get in touch on [twitter](https://www.twitter.com/huscous)

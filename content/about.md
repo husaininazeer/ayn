@@ -34,6 +34,7 @@ All feedback is much appreciated.
 
 I built ayn using [hugo](https://gohugo.io/), deployed on [netlify](https://www.netlify.com/). Everything you see will be written in [pandoc](https://pandoc.org/MANUAL.html), to allow for easy conversion into LaTeX/PDFs.
 
+--- 
 اللهم صل علي حبينا محمد الفاتح لما أغلق، والخاتم لما سبق، ناصر الحق بالحق، والهادي إلى صراطك المستقم، وعلى آله حق قدره مقداره العظيم
 
 [^1]: I collate the things I learn from multiple places. Where appropriate, I will state my sources. Views are my own, and not representative of the institutions that I name/study in.
