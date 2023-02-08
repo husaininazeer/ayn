@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: ""
 title: Ayn
 paginate: 7
 theme: PaperMod
