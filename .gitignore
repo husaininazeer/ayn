@@ -1,9 +1,12 @@
-# public folder 
+# public folder
 # public/
 
 # vim swap files
 *.swp
 *.swo
+
+# vscode files
+.vscode/
 
 # lock files
 # *.lock
