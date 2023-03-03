@@ -2,47 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Ayn</title>
-    <link>https://examplesite.com/posts/</link>
+    <link>https://hnazeer.com/posts/</link>
     <description>Recent content in Posts on Ayn</description>
     <image>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>Ayn</title>
+      <url>https://hnazeer.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://hnazeer.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 06 Feb 2023 06:47:50 +0000</lastBuildDate><atom:link href="https://examplesite.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 13:06:59 +0000</lastBuildDate><atom:link href="https://hnazeer.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2. Tahawiyyah - Praise of Imam Tahawi</title>
+      <link>https://hnazeer.com/posts/personal.studies.aqidah.tahawiyyah-2/</link>
+      <pubDate>Fri, 03 Mar 2023 13:06:59 +0000</pubDate>
+      
+      <guid>https://hnazeer.com/posts/personal.studies.aqidah.tahawiyyah-2/</guid>
+      <description>Classes with Sh. Muhammad Sbini</description>
+    </item>
+    
+    <item>
+      <title>1. Tahawiyyah - Intro</title>
+      <link>https://hnazeer.com/posts/personal.studies.aqidah.tahawiyyah-1/</link>
+      <pubDate>Fri, 03 Mar 2023 12:13:40 +0000</pubDate>
+      
+      <guid>https://hnazeer.com/posts/personal.studies.aqidah.tahawiyyah-1/</guid>
+      <description>Classes with Sh. Muhammad Sbini</description>
+    </item>
+    
     <item>
       <title>A Brief History of Time</title>
-      <link>https://examplesite.com/posts/personal.studies.essays.a-brief-history-of-time/</link>
+      <link>https://hnazeer.com/posts/personal.studies.essays.a-brief-history-of-time/</link>
       <pubDate>Mon, 06 Feb 2023 06:47:50 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/personal.studies.essays.a-brief-history-of-time/</guid>
+      <guid>https://hnazeer.com/posts/personal.studies.essays.a-brief-history-of-time/</guid>
       <description>A biased (and incomplete) summary of Islamic History from a political, sectarian and academic perspective</description>
     </item>
     
     <item>
       <title>1 - Speech, its Types, &amp; Signs of Nouns</title>
-      <link>https://examplesite.com/posts/personal.studies.arabic.nahw.tuhfah-saniyyah.01-speech/</link>
+      <link>https://hnazeer.com/posts/personal.studies.arabic.nahw.tuhfah-saniyyah.01-speech/</link>
       <pubDate>Sat, 04 Feb 2023 12:51:55 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/personal.studies.arabic.nahw.tuhfah-saniyyah.01-speech/</guid>
+      <guid>https://hnazeer.com/posts/personal.studies.arabic.nahw.tuhfah-saniyyah.01-speech/</guid>
       <description>ما هو الكلام في النحو، وعلامات الإسم</description>
     </item>
     
     <item>
       <title>2023 Reading List</title>
-      <link>https://examplesite.com/posts/personal.trackers.reading-list/</link>
+      <link>https://hnazeer.com/posts/personal.trackers.reading-list/</link>
       <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/personal.trackers.reading-list/</guid>
+      <guid>https://hnazeer.com/posts/personal.trackers.reading-list/</guid>
       <description>A place for all the books that will be read in 2023</description>
     </item>
     
     <item>
       <title>Idghaam Kabir - إدغام كبير</title>
-      <link>https://examplesite.com/posts/personal.studies.quranic.shatibiyyah.4.idgham-kabir/</link>
+      <link>https://hnazeer.com/posts/personal.studies.quranic.shatibiyyah.4.idgham-kabir/</link>
       <pubDate>Sat, 29 Jan 2022 12:05:36 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/personal.studies.quranic.shatibiyyah.4.idgham-kabir/</guid>
+      <guid>https://hnazeer.com/posts/personal.studies.quranic.shatibiyyah.4.idgham-kabir/</guid>
       <description>An expl. of إدغام كبير - lines 116 - 119 of shatibiyah</description>
     </item>
     
