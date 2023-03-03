@@ -1,6 +1,6 @@
 ---
 title: 2. Tahawiyyah - Praise of Imam Tahawi
-summary: Classes with Sh. Muhammad Sbini
+summary: Discussion on the levels of a legist - طباقات المجتهد
 author: huscous
 tags:
   - aqidah
@@ -33,5 +33,3 @@ date: '2023-03-03T13:06:59Z'
 This was mentioned as a side point due to praise of ابن عابدين for الطحاوي.
 
 > فهو من اهل الإجتهاد في المسائل التي لا رواية فيها من صاحب المذهب
-
-[Lesson 3](personal.studies.aqidah.tahawiyyah-3.md)

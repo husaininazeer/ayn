@@ -1,6 +1,6 @@
 ---
-title: 1. Tahawiyyah - Intro
-summary: Classes with Sh. Muhammad Sbini
+title: 1. Tahawiyyah - Introduction
+summary: Basic introduction to author and discussion on different sects
 author: huscous
 tags:
   - aqidah
@@ -40,5 +40,3 @@ Books written:
     - believe doing a major sins is in between Imaan and Kufr - في منزلة بين المنزلتين
   - Shi'a - الشيعة
   - المرجئة
-
-[Lesson 2](personal.studies.aqidah.tahawiyyah-2.md)
