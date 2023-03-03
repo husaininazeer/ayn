@@ -24,6 +24,9 @@ date: '2023-03-03T17:18:42Z'
   - very strongly and tight
   - to make a knot
 
+- also used for contracts
+  - > أوفوا بالعقود
+
 ### Technical - إصطلاحي
 
 - علم
