@@ -1,4 +1,7 @@
-# Notes from Excersim
+---
+title: Notes from Excersim
+author: huscous
+---
 
 ## How to write a function in Go?
 

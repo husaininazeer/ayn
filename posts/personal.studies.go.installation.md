@@ -1,4 +1,9 @@
-## How to install Go (on Linux machine with bash)
+---
+title: Installing Go
+
+---
+
+## On a Linux machine with bash
 
 ```bash
 # remove any existing go binaries

@@ -1,6 +1,6 @@
 ---
 title: On Systems
-desc: ''
+desc: 'Thoughts on why systems work'
 updated: 1692055191964
 created: 1692055191964
 ---

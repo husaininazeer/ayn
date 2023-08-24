@@ -1,5 +1,4 @@
 ---
- id: 4v4aumkvu0wo8zgosd99vhf
  title: On Marmeladov's rant
  desc: "On Marmeledov's (Crime and Punishment) rant to Raskolnikov"
  updated: 1692090677031
