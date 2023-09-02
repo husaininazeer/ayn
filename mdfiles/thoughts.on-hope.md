@@ -1,5 +1,5 @@
 ---
- title: On Marmeladov's rant
+ title: On Marmeladov's rant (hope)
  desc: "On Marmeledov's rant to Raskolnikov (Crime and Punishment)"
  author: huscous
  created: 2023-08-15 00:04

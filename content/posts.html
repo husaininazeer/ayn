@@ -168,7 +168,126 @@
   </style>
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiri">
-  <link rel="stylesheet" href="./../assets/styles.css" />
+
+  <style>
+
+  :root {
+    --first:  #3A3335;
+    --second: #FDF0D5;
+    --third:  #C6D8D3;
+    --fourth: #EB5E55;
+    --fifth:  #BCBC82;
+    font-size: 120%;
+  }
+
+
+
+  body {
+    max-width: 40vw;
+    padding: 0;
+    font-family: 'Amiri', serif;
+    position: absolute;
+    left: 18rem;
+    padding-left: 20px;
+  }
+
+  /*
+  div.viewport {
+    max-width: 101vw;
+    display: flex;
+  }
+
+  div.content {
+    color: var(--first);
+    display: flex;
+    max-width: 100vw;
+    margin: 0;
+  }
+  */
+
+  .sidebar {
+    height: 100%;
+    width: 18rem;
+    position: fixed;
+    background-color: var(--fifth);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    text-align: left;
+  }
+
+  .sidebar-container {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    padding: 2rem 1rem;
+    font-weight: bold;
+    font-size: 120%;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar-container {font-size: 18px;}
+  }
+
+  h1.home-button {
+    font-weight: bold;
+    font-size: 45pt;
+    margin-bottom: 0;
+  }
+
+  a h3 {
+    font-weight: bold;
+    font-size: 25pt;
+    margin: 0;
+  }
+
+
+  h1.title {
+    font-weight: bold;
+    font-size: 30pt;
+    margin-bottom:0;
+  }
+
+  hr.style-eight {
+      overflow: visible; /* For IE */
+      padding: 0;
+      border: none;
+      border-top: medium double var(--third);
+      color: var(--third);
+      text-align: center;
+  }
+
+  hr.style-eight:after {
+      content: "§";
+      display: inline-block;
+      position: absolute;
+      top: -0.7em;
+      font-size: 1.5em;
+      padding: 0 0.25em;
+      background: white;
+  }
+
+  /*
+  blockquote {
+    color: var(--third);
+  }
+  */
+
+  div.endTagBox {
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-evenly;
+    font-weight: bold;
+  }
+
+  /*
+  span.metadataBox {
+    color: var(--third);
+  }
+  */
+  </style>
 
 
 
@@ -182,15 +301,15 @@
 
     <div class='sidebar-container'>
 
-    <a href="../content/index.html">
+    <a href="../index.html">
       <h1 class="home-button">ayn</h1>
     </a>
 
-    <a href="../content/posts.html">
+    <a href="../posts.html">
       <h3>Posts</h3>
     </a>
 
-    <a href="../content/roadmap.html">
+    <a href="../roadmap.html">
       <h3>Roadmap</h3>
     </a>
 
@@ -216,20 +335,19 @@
     
     <p>﷽</p>
     <p>Here are the most recent posts:</p>
-    <ul>
-    <li><a
-    href="./studies.logic.isaguji.universals-and-definitions.html">studies.logic.isaguji.universals-and-definitions</a></li>
-    <li><a
-    href="./thoughts.on-systems.html">thoughts.on-systems</a></li>
-    <li><a href="./thoughts.on-hope.html">thoughts.on-hope</a></li>
-    <li><a href="./tools.tmux.notes.html">tools.tmux.notes</a></li>
-    <li><a
-    href="./tools.linux.virtual-machine-installation.html">tools.linux.virtual-machine-installation</a></li>
-    <li><a
-    href="./languages.go.notes-from-exercism-exercises.html">languages.go.notes-from-exercism-exercises</a></li>
-    <li><a
-    href="./languages.go.installation.html">languages.go.installation</a></li>
-    </ul>
+    <p>On Marmeladov’s rant (hope) - <a
+    href="./thoughts.on-hope.html">On Marmeladov’s rant (hope)</a>
+    Isaguji Part 1 - Universals and Definitions - <a
+    href="./studies.logic.isaguji.universals-and-definitions.html">Isaguji
+    Part 1 - Universals and Definitions</a> On Systems - <a
+    href="./thoughts.on-systems.html">On Systems</a> ‘Notes on
+    <code>Tmux</code>’ - <a href="./tools.tmux.notes.html">‘Notes on
+    <code>Tmux</code>’</a> Installing Linux on a virtual machine - <a
+    href="./tools.linux.virtual-machine-installation.html">Installing
+    Linux on a virtual machine</a> Notes from Excersim - <a
+    href="./languages.go.notes-from-exercism-exercises.html">Notes from
+    Excersim</a> Installing Go - <a
+    href="./languages.go.installation.html">Installing Go</a></p>
 
     <hr/>
 

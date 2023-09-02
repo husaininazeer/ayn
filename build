@@ -2,11 +2,11 @@
 
 # find a list of markdowns
 # remove the extension just to get the file name
-# remove personal files
+# remove personal files and others that you want to exclude
 
 ./generate_home_page > mdfiles/posts.md
 
-list_of_files=$(ls mdfiles/ | sed -e 's/\.md$//' | grep -v 'personal*')
+list_of_files=$(ls mdfiles/ | sed -e 's/\.md$//' | grep -v 'personal')
 
 # remove all the html files and remake the folder
 

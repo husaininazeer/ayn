@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# get the list of md files
+# grep `title:` from the grep
+# use awk to trim it
+
+list_of_files=$(ls mdfiles/ | grep -v 'posts.md\|index.md\|roadmap.md\|personal*')
+
+for md_file in ${list_of_files[@]}; do
+  echo $"grep from ${md_file}"
+  grep 'title: *' mdfiles/${md_file} | awk '{$1=""; print $0}'
+done
