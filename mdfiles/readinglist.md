@@ -31,10 +31,9 @@ This is my digital bookshelf. I may sometimes write on some of these books.
 - [ ] Disciplining the Soul and on Breaking the Two Desires - Imam Ghazali
 - [ ] ترتيب العلوم - ساجقلي زاده
 - [ ] طريقة المحمدية - إمام البركوي
-- [ ] A Taste of Honey - Habib Akande
 - [ ] Descartes - A.C. Grayling
 - [ ] The Beginning of Guidance - Imam Ghazali
 - [ ] من أدب الإسلام - عبد الفتاح أبو غدة
 
-[^1]: [On Marmeladov's rant (hope) ](thoughts.on-hope.md)
+[^1]: [On Marmeladov's rant (hope) ](thoughts.on-hope)
 
