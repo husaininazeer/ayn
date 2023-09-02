@@ -17,5 +17,8 @@ mkdir -p content/
 
 for md in ${list_of_files[@]}; do
   echo -e "\nConverting ${md}.md..."
-  pandoc -s mdfiles/${md}.md -o content/${md}.html --template=assets/templates/post.html 2> /dev/null
+  pandoc -s mdfiles/${md}.md -o content/${md}.html --template=assets/post.html 2> /dev/null
 done
+
+
+echo -e "\n All built!"
