@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$"$if(dir)$ dir="$dir$"$endif$>
+<head>
+  <meta charset="utf-8" />
+
+$for(author-meta)$
+  <meta name="author" content="$author-meta$" />
+$endfor$
+
+$if(created-meta)$
+  <meta name="dcterms.created" content="$created-meta$" />
+$endif$
+
+$if(tags)$
+  <meta name="tags" content="$for(tags)$$tags$$sep$, $endfor$" />
+$endif$
+
+$if(description-meta)$
+  <meta name="desc" content="$description-meta$" />
+$endif$
+
+  <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+  <style>
+    $styles.html()$
+  </style>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiri">
+  <link rel="stylesheet" href="./../assets/styles.css" />
+
+$for(header-includes)$
+  $header-includes$
+$endfor$
+
+$if(math)$
+$if(mathjax)$
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+$endif$
+  $math$
+$endif$
+
+</head>
+
+<body>
+$for(include-before)$
+$include-before$
+$endfor$
+
+<div class="viewport">
+
+  <div class="sidebar">
+
+    <div class='sidebar-container'>
+
+    <a href="../content/index.html">
+      <h1 class="home-button">ayn</h1>
+    </a>
+
+    <a href="../content/posts.html">
+      <h3>Posts</h3>
+    </a>
+
+    <a href="../content/roadmap.html">
+      <h3>Roadmap</h3>
+    </a>
+
+    Made with ❤️ by <a href='https://twitter.com/huscous/'> @huscous </a>
+
+    </div>
+
+
+  </div>
+
+  $if(title)$
+
+  <div class="content">
+      <h1 class="title">$title$</h1>
+
+      <span class="metadataBox">
+        ${if(author)}${author} ${endif}
+        ${if(created)}| ${created} ${endif}
+      </span>
+
+
+      $if(abstract)$
+      <div class="abstract">
+      <div class="abstract-title">$abstract-title$</div>
+      $abstract$
+      </div>
+      $endif$
+
+
+    $endif$
+
+    ${body}
+
+    <hr/>
+
+    <div class="endTagBox">
+      ${for(tags)}
+        <a>${tags}</a>
+      ${endfor}
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+
+  <meta name="author" content="huscous" />
+
+
+  <meta name="tags" content="logic, isaguji, uloom, notes" />
+
+
+  <title>Isaguji Part 1 - Universals and Definitions</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiri">
+  <link rel="stylesheet" href="./../assets/styles.css" />
+
+
+
+</head>
+
+<body>
+
+<div class="viewport">
+
+  <div class="sidebar">
+
+    <div class='sidebar-container'>
+
+    <a href="../content/index.html">
+      <h1 class="home-button">ayn</h1>
+    </a>
+
+    <a href="../content/posts.html">
+      <h3>Posts</h3>
+    </a>
+
+    <a href="../content/roadmap.html">
+      <h3>Roadmap</h3>
+    </a>
+
+    Made with ❤️ by <a href='https://twitter.com/huscous/'> @huscous </a>
+
+    </div>
+
+
+  </div>
+
+  
+  <div class="content">
+      <h1 class="title">Isaguji Part 1 - Universals and Definitions</h1>
+
+      <span class="metadataBox">
+        huscous 
+        | 2023-09-01 06:19 
+      </span>
+
+
+      
+
+    
+    <p>﷽</p>
+    <p>Logic as a science can be split into four:</p>
+    <ol type="1">
+    <li>The five universals</li>
+    <li>Definitions</li>
+    <li>Propositions</li>
+    <li>Syllogisms</li>
+    </ol>
+    <p>The following will summarise the first two.</p>
+    <h2 id="how-are-words-and-their-meanings-related">How are words and
+    their meanings related?</h2>
+    <p>Words (lit. utterances) indicate to a meaning in the mind. They
+    can do this in three ways; <strong>fully</strong>,
+    <strong>partially</strong>, by <strong>concomitance</strong>. For
+    the word ‘human’, the meaning of rational animal) is by full
+    indication. Partial indication would be one of the two (i.e. saying
+    ‘human’ to indicate rationality or animal). Through concomitance,
+    the word ‘human’ could be used to mean something that has the
+    potential to laugh, or potential to ride a bike etc…</p>
+    <p>This is how words work in any language (not just Arabic)</p>
+    <h2 id="what-are-universal-and-particular-words">What are universal
+    and particular words?</h2>
+    <p>Utterances can be singular (e.g. Zayd) or compounded (Zayd is
+    standing). An utterance that is singular can be a universal or a
+    particular.</p>
+    <p>A universal utterance is a word that indicates to a meaning,
+    whose <strong>shared</strong> mental conception is
+    <strong>not</strong> prevented (i.e. the word ‘lion’ points to the
+    mental image of a lion, but mentally there can be more than one
+    instance of a lion).</p>
+    <p>A particular utterance is a word that indicates to a meaning,
+    whose <strong>shared</strong> mental conception <strong>is</strong>
+    prevented (i.e. the proper noun [i.e. name] ‘Syed’ points to one
+    known person, and there are no more than one mental instances)  </p>
+    <h2 id="what-are-the-different-types-of-universals">What are the
+    different types of universals?</h2>
+    <p>The essence of something is what makes that thing, that thing. If
+    the essence of something is taken away, the thing is no longer that
+    thing. E.g. the essence of a human being is rational animal.</p>
+    <p>There are five types of universals. The former 3 are “essential”
+    (i.e. relate to the essence of something) and the latter 2 are
+    “accidental”.</p>
+    <ol type="1">
+    <li><strong>Differentia</strong> - the essential universal that
+    differentiates this species from every other member of the genus.
+    (i.e. the essential universal that is <strong>not shared</strong>
+    with other species). For the word “human” that would be
+    “rational”.</li>
+    <li><strong>Genus</strong> - the essential universal that <strong>is
+    shared</strong> between different species. For “human” it would be
+    “animal”.</li>
+    <li><strong>Species</strong> - the universal that <strong>is the
+    essence</strong> in its entirety. “Human” is the species.</li>
+    <li><strong>Particular accident</strong> - <strong>specific to
+    one</strong> essential reality. E.g. “potential to laugh” for
+    “human”. Laughing is connected to possessing some form of
+    rationality.</li>
+    <li><strong>Common accident</strong> - <strong>not specific to
+    one</strong> essential reality. E.g. “potential to walk” for
+    “human”. Other animals walk.</li>
+    </ol>
+    <p>The accidents (both) can be split further into separable and
+    inseparable universals. In the examples given above,
+    <strong>potential</strong> to laugh is inseparable from the human,
+    whilst laughing in <strong>actuality</strong> is separable - a human
+    doesn’t have to always be laughing to be human! And likewise for the
+    common accident example.</p>
+    <p>The genus and species can be split into close (or immediate),
+    intermediate, and far (or remote).</p>
+    <h2 id="what-is-a-definition-and-description">What is a definition
+    and description?</h2>
+    <p>Definitions (in a general sense) are statements that indicate to
+    the essence of a thing. They can split into 4:</p>
+    <ol type="1">
+    <li><strong>Complete definition</strong> = immediate genus +
+    immediate differentia</li>
+    <li><strong>Incomplete definition</strong> = remote genus +
+    immediate differentia</li>
+    <li><strong>Complete description</strong> = immediate genus +
+    inseparable particular accident</li>
+    <li><strong>Incomplete description</strong> = inseparable particular
+    accident + inseparable comment accident</li>
+    </ol>
+    <p>Here are examples for the above in relation to “human”</p>
+    <ol type="1">
+    <li>“Rational animal”</li>
+    <li>“Rational body”</li>
+    <li>“Laughing animal”</li>
+    <li>“He who walks on two feet”</li>
+    </ol>
+
+    <hr/>
+
+    <div class="endTagBox">
+              <a>logic</a>
+              <a>isaguji</a>
+              <a>uloom</a>
+              <a>notes</a>
+          </div>
+  </div>
+</div>
+
+
+</body>
+</html>
