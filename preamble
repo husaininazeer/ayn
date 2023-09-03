@@ -3,5 +3,6 @@
 echo -e "---"
 echo -e "title:"
 echo -e "author: huscous"
-echo -e "created: $(isosec)"
+echo -e "created: $(date '+%Y-%m-%d %H:%M')"
+echo -e "tags:"
 echo -e "---\n"
