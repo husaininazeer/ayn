@@ -13,7 +13,6 @@ echo $'---\ntitle: ayn\n---\n﷽\n'
 echo $'Here are the most recent posts:\n'
 
 for md in ${list_of_files[@]}; do
-
   md_title=$(grep 'title: *' mdfiles/${md}.md | awk '{$1=""; print$0}')
 
   echo -e "- [${md_title}](./${md}.html)"
