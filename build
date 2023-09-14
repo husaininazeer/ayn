@@ -6,7 +6,7 @@
 
 ./generate_home_page > mdfiles/posts.md
 
-list_of_files=$(ls mdfiles/ | sed -e 's/\.md$//' | grep -v 'personal')
+list_of_files=$(ls -t mdfiles/ | sed -e 's/\.md$//' | grep -v 'personal')
 
 # remove all the html files and remake the folder
 
