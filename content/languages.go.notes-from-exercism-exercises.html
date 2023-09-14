@@ -6,6 +6,7 @@
   <meta name="author" content="huscous" />
 
 
+  <meta name="tags" content="go, programming, notes" />
 
 
   <title>Notes from Excersim</title>
@@ -243,7 +244,7 @@
 
       <span class="metadataBox">
         huscous 
-        
+        | 2023-08-24 10:52 
       </span>
 
 
@@ -275,11 +276,35 @@
     <span id="cb2-9"><a href="#cb2-9" aria-hidden="true"></a>someOtherVariable = &#39;a <span class="dt">string</span>&#39; <span class="co">// does NOT work</span></span></code></pre></div>
     <h2 id="how-to-initialise-constants">How to initialise constants?</h2>
     <div class="sourceCode" id="cb3"><pre class="sourceCode go"><code class="sourceCode go"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a><span class="co">// constants can NOT change their value</span></span>
-    <span id="cb3-2"><a href="#cb3-2" aria-hidden="true"></a><span class="kw">const</span> aNumber = <span class="dv">30</span> </span></code></pre></div>
+    <span id="cb3-2"><a href="#cb3-2" aria-hidden="true"></a><span class="kw">const</span> aNumber = <span class="dv">30</span></span></code></pre></div>
+    <h2 id="what-are-the-different-types-of-comments-you-can-have-in-go">What are the different types of comments you can have in Go?</h2>
+    <div class="sourceCode" id="cb4"><pre class="sourceCode go"><code class="sourceCode go"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a><span class="co">// n.b. apparently &#39;go doc [command]&#39; function can extract all of the</span></span>
+    <span id="cb4-2"><a href="#cb4-2" aria-hidden="true"></a>comments to <span class="bu">make</span> documentation about Go.</span>
+    <span id="cb4-3"><a href="#cb4-3" aria-hidden="true"></a></span>
+    <span id="cb4-4"><a href="#cb4-4" aria-hidden="true"></a><span class="co">// 1. Package comments</span></span>
+    <span id="cb4-5"><a href="#cb4-5" aria-hidden="true"></a></span>
+    <span id="cb4-6"><a href="#cb4-6" aria-hidden="true"></a><span class="co">// Package somepackage does something that is useful</span></span>
+    <span id="cb4-7"><a href="#cb4-7" aria-hidden="true"></a><span class="kw">package</span> somepackage</span>
+    <span id="cb4-8"><a href="#cb4-8" aria-hidden="true"></a></span>
+    <span id="cb4-9"><a href="#cb4-9" aria-hidden="true"></a><span class="co">// 2.  Function comments</span></span>
+    <span id="cb4-10"><a href="#cb4-10" aria-hidden="true"></a></span>
+    <span id="cb4-11"><a href="#cb4-11" aria-hidden="true"></a><span class="co">// SomeFunction takes in no values and returns an int of 0.</span></span>
+    <span id="cb4-12"><a href="#cb4-12" aria-hidden="true"></a>function SomeFunction() <span class="dt">int</span> {</span>
+    <span id="cb4-13"><a href="#cb4-13" aria-hidden="true"></a>  <span class="kw">return</span> <span class="dv">0</span></span>
+    <span id="cb4-14"><a href="#cb4-14" aria-hidden="true"></a>}</span>
+    <span id="cb4-15"><a href="#cb4-15" aria-hidden="true"></a></span>
+    <span id="cb4-16"><a href="#cb4-16" aria-hidden="true"></a><span class="co">// 3.  (package-level) Variable comments</span></span>
+    <span id="cb4-17"><a href="#cb4-17" aria-hidden="true"></a></span>
+    <span id="cb4-18"><a href="#cb4-18" aria-hidden="true"></a><span class="co">// BookName is a string that represents a name of a book.</span></span>
+    <span id="cb4-19"><a href="#cb4-19" aria-hidden="true"></a><span class="kw">var</span> BookName</span>
+    <span id="cb4-20"><a href="#cb4-20" aria-hidden="true"></a><span class="dt">string</span></span></code></pre></div>
 
     <hr/>
 
     <div class="endTagBox">
+              <a>go</a>
+              <a>programming</a>
+              <a>notes</a>
           </div>
   </div>
 </div>
