@@ -5,8 +5,10 @@ title: ayn
 
 Here are the most recent posts:
 
-- [ Qudūrī - Nikkāh - Introduction to Nikkah](./studies.fiqh.quduri.conduct.nikkah.introduction-to-nikkah.html)
-- [ Qudūrī - Nikkāh - Introduction to Author and Text](./studies.fiqh.quduri.conduct.nikkah.introduction-to-author-and-text.html)
+- [ Mishkāt - Preliminaries](./studies.hadith.mishkat.01-introduction-to-the-science.html)
+- [ Qudūrī - Nikkāh - Opening of the book](./studies.fiqh.quduri.conduct.nikkah.03.opening-of-the-book.html)
+- [ Qudūrī - Nikkāh - Introduction to Nikkah](./studies.fiqh.quduri.conduct.nikkah.02.introduction-to-nikkah.html)
+- [ Qudūrī - Nikkāh - Introduction to Author and Text](./studies.fiqh.quduri.conduct.nikkah.01.introduction-to-author-and-text.html)
 - [ Words and their relationships to their meanings](./studies.logic.sullam.words-and-their-relations-to-meanings.html)
 - [ Notes from Excersim](./languages.go.notes-from-exercism-exercises.html)
 - [ Reading list](./readinglist.html)
