@@ -5,7 +5,9 @@ title: ayn
 
 Here are the most recent posts:
 
-- [ Mishkāt - Preliminaries](./studies.hadith.mishkat.01-introduction-to-the-science.html)
+- [ Taysīr Muṣṭalaḥ al-Ḥadīth - Introduction to volume one](./studies.hadith.dirayah.taysir-mustalah-al-hadith.introduction-to-first-volume.html)
+- [ al-Wajīz - Preliminaries](./studies.usul-fiqh.al-wajeez.01-preliminaries.html)
+- [ Mishkāt - Preliminaries](./studies.hadith.riwayah.mishkat.01-introduction-to-the-science.html)
 - [ Qudūrī - Nikkāh - Opening of the book](./studies.fiqh.quduri.conduct.nikkah.03.opening-of-the-book.html)
 - [ Qudūrī - Nikkāh - Introduction to Nikkah](./studies.fiqh.quduri.conduct.nikkah.02.introduction-to-nikkah.html)
 - [ Qudūrī - Nikkāh - Introduction to Author and Text](./studies.fiqh.quduri.conduct.nikkah.01.introduction-to-author-and-text.html)
