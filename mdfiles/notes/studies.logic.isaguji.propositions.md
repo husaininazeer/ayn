@@ -1,12 +1,15 @@
 ---
+id: l8i0lk3g182kovycgpb6dkn
 title: Isaguji Part 2 - Propositions
-author: huscous
-created: 2023-09-03 22:37
+desc: ''
+updated: 1706629322243
+created: '2023-09-03 22:37'
 tags:
   - logic
   - isaguji
   - uloom
   - notes
+author: huscous
 ---
 
 ﷽

@@ -1,12 +1,15 @@
 ---
+id: 6s7pvf2kw80vihs27hhjnzg
 title: Isaguji Part 1 - Universals and Definitions
-author: huscous
-created: 2023-09-01 06:19
+desc: ''
+updated: 1706629322245
+created: '2023-09-01 06:19'
 tags:
   - logic
   - isaguji
   - uloom
   - notes
+author: huscous
 ---
 
 ﷽

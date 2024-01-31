@@ -1,6 +1,9 @@
 ---
+id: urpot5apzx6jtx6vx9l2yyg
 title: Installing Go
-
+desc: ''
+updated: 1706629322234
+created: 1706629322234
 ---
 
 ## On a Linux machine with bash

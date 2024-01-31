@@ -1,7 +1,10 @@
 ---
+id: 7zun8uimig3ke0gu00x1lb4
 title: On friendship
+desc: ''
+updated: 1706629322221
+created: '2023-09-02 13:32'
 author: huscos
-created: 2023-09-02 13:32
 ---
 
 Someone once told me, according to their definition of a friend, they have none. The definition - or description rather (paraphrased) was ‘someone you can talk to about anything, someone who knows what is going on in your life, someone who you turn to when you need something’. Presumably, the feelings would have to be somewhat mutual, or else teachers and mentors fit the description.

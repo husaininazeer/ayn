@@ -1,12 +1,15 @@
 ---
+id: 08kf1odt7v4t39k4i7236dn
 title: Qudūrī - Nikkāh - Introduction to Author and Text
-author: huscous
-created: 2023-09-13 18:56
+desc: ''
+updated: 1706629322281
+created: '2023-09-13 18:56'
 tags:
   - fiqh
   - notes
   - nikkah
   - quduri
+author: huscous
 ---
 
 ## Definition of Fiqh

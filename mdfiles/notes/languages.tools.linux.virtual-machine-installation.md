@@ -1,7 +1,11 @@
 ---
+id: hf9n3k1guskku3fwzhiysmv
 title: Installing Linux on a virtual machine
+desc: ''
+updated: 1706629322238
+created: 1706629322238
 author: huscous
-description: 'Quick write up just for reference'
+description: Quick write up just for reference
 ---
 I must admit, I have done this before. But I figure it would be good to
 have *some* sort of 'documentation' for this procedure (installing

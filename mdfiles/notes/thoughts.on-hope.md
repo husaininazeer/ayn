@@ -1,9 +1,14 @@
 ---
- title: On Marmeladov's rant (hope)
- desc: "On Marmeledov's rant to Raskolnikov (Crime and Punishment)"
- author: huscous
- created: 2023-08-15 00:04
- tags: [Dostoevsky, Mercy, Thoughts]
+id: r38jh9lnqvu4cdhcz66tzsj
+title: On Marmeladov's rant (hope)
+desc: On Marmeledov's rant to Raskolnikov (Crime and Punishment)
+updated: 1706629322225
+created: '2023-08-15 00:04'
+tags:
+  - Dostoevsky
+  - Mercy
+  - Thoughts
+author: huscous
 ---
 
 > 'To be pitied! Why am I to be pitied?' Marmeladov suddenly declaimed, standing up with his arm outstretched, as though he had been only waiting for that question.

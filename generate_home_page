@@ -4,7 +4,7 @@
 # sorting it by update time
 # removing all personal files, about and index files
 
-list_of_files=$(ls -lt mdfiles/ | awk '{print $9}' | grep -v 'posts.md\|index.md\|roadmap.md\|personal*' | sed -e 's/\.md$//')
+list_of_files=$(ls -lt mdfiles/notes/ | awk '{print $9}' | grep -v 'posts.md\|index.md\|roadmap.md\|root*|personal*' | sed -e 's/\.md$//')
 
 # for every file make a list of links
 
@@ -13,7 +13,7 @@ echo $'---\ntitle: ayn\n---\n﷽\n'
 echo $'Here are the most recent posts:\n'
 
 for md in ${list_of_files[@]}; do
-  md_title=$(grep 'title: *' mdfiles/${md}.md | awk '{$1=""; print$0}')
+  md_title=$(grep 'title: *' mdfiles/notes/${md}.md | awk '{$1=""; print$0}')
 
   echo -e "- [${md_title}](./${md}.html)"
 done

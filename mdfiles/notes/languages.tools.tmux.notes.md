@@ -1,7 +1,10 @@
 ---
-title: 'Notes on `Tmux`'
+id: wkchezar3rg2rfxmex420ub
+title: Notes on `Tmux`
+desc: ''
+updated: 1706629322241
+created: '2023-09-01 22:24'
 author: huscous
-created: 2023-09-01 22:24
 ---
 
 ## How to exit tmux windows without closing them

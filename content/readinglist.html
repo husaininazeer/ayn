@@ -10,12 +10,166 @@
 
   <title>Reading list</title>
   <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiri">
@@ -189,59 +343,64 @@
 
     
     <p>﷽</p>
-    <p>This is my digital bookshelf. I may sometimes write on some of these books.</p>
+    <p>This is my digital bookshelf. I may sometimes write on some of
+    these books.</p>
     <h2 id="current">Current</h2>
     <ul class="task-list">
-    <li><input type="checkbox" disabled="" />
-    Crime and Punishment - Fydor Dostoevsky <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
-    <li><input type="checkbox" disabled="" />
-    تعليم المتعلم طريق العلم - إمام الزرنوجي</li>
-    <li><input type="checkbox" disabled="" />
-    Letter to a Disciple - Imam Ghazāli</li>
-    <li><input type="checkbox" disabled="" />
-    The Lost Tools of Learning - Dorothy Sayers</li>
+    <li><label><input type="checkbox" />Crime and Punishment - Fydor
+    Dostoevsky <a href="#fn1" class="footnote-ref" id="fnref1"
+    role="doc-noteref"><sup>1</sup></a></label></li>
+    <li><label><input type="checkbox" />تعليم المتعلم طريق العلم - إمام
+    الزرنوجي</label></li>
+    <li><label><input type="checkbox" />Letter to a Disciple - Imam
+    Ghazāli</label></li>
+    <li><label><input type="checkbox" />The Lost Tools of Learning -
+    Dorothy Sayers</label></li>
     </ul>
     <h2 id="on-the-shelf">On the shelf</h2>
     <ul class="task-list">
-    <li><input type="checkbox" disabled="" />
-    The Foundations of Islamic Beliefs - Imam Ghazali</li>
-    <li><input type="checkbox" disabled="" />
-    The Ascent of Money - Niall Ferguson</li>
-    <li><input type="checkbox" disabled="" />
-    أيها الولد - إمام الغزالي</li>
-    <li><input type="checkbox" disabled="" />
-    Euphemism in the Qur’an - Prof. Abdul Haleem</li>
-    <li><input type="checkbox" disabled="" />
-    Empire: The Rise and Demise of the British World Order - Niall Ferguson</li>
-    <li><input type="checkbox" disabled="" />
-    Why Nations Fail - Daron Acemoglu</li>
-    <li><input type="checkbox" disabled="" />
-    A Song of Ice and Fire - George R. R. Martin</li>
-    <li><input type="checkbox" disabled="" />
-    Pedagogy of the oppressed - Paulo Friere</li>
-    <li><input type="checkbox" disabled="" />
-    The Book of Assistance - Imam al-Haddad</li>
-    <li><input type="checkbox" disabled="" />
-    The Sabres of Paradise - Lesley Blanch</li>
-    <li><input type="checkbox" disabled="" />
-    Love, Longing, Intimacy &amp; Contentment - Imam Ghazali</li>
-    <li><input type="checkbox" disabled="" />
-    Disciplining the Soul and on Breaking the Two Desires - Imam Ghazali</li>
-    <li><input type="checkbox" disabled="" />
-    ترتيب العلوم - ساجقلي زاده</li>
-    <li><input type="checkbox" disabled="" />
-    طريقة المحمدية - إمام البركوي</li>
-    <li><input type="checkbox" disabled="" />
-    Descartes - A.C. Grayling</li>
-    <li><input type="checkbox" disabled="" />
-    The Beginning of Guidance - Imam Ghazali</li>
-    <li><input type="checkbox" disabled="" />
-    من أدب الإسلام - عبد الفتاح أبو غدة</li>
+    <li><label><input type="checkbox" />The Foundations of Islamic
+    Beliefs - Imam Ghazali</label></li>
+    <li><label><input type="checkbox" />The Ascent of Money - Niall
+    Ferguson</label></li>
+    <li><label><input type="checkbox" />أيها الولد - إمام
+    الغزالي</label></li>
+    <li><label><input type="checkbox" />Euphemism in the Qur’an -
+    Prof. Abdul Haleem</label></li>
+    <li><label><input type="checkbox" />Empire: The Rise and Demise of
+    the British World Order - Niall Ferguson</label></li>
+    <li><label><input type="checkbox" />Why Nations Fail - Daron
+    Acemoglu</label></li>
+    <li><label><input type="checkbox" />A Song of Ice and Fire - George
+    R. R. Martin</label></li>
+    <li><label><input type="checkbox" />Pedagogy of the oppressed -
+    Paulo Friere</label></li>
+    <li><label><input type="checkbox" />The Book of Assistance - Imam
+    al-Haddad</label></li>
+    <li><label><input type="checkbox" />The Sabres of Paradise - Lesley
+    Blanch</label></li>
+    <li><label><input type="checkbox" />Love, Longing, Intimacy &amp;
+    Contentment - Imam Ghazali</label></li>
+    <li><label><input type="checkbox" />Disciplining the Soul and on
+    Breaking the Two Desires - Imam Ghazali</label></li>
+    <li><label><input type="checkbox" />ترتيب العلوم - ساجقلي
+    زاده</label></li>
+    <li><label><input type="checkbox" />طريقة المحمدية - إمام
+    البركوي</label></li>
+    <li><label><input type="checkbox" />Descartes - A.C.
+    Grayling</label></li>
+    <li><label><input type="checkbox" />The Beginning of Guidance - Imam
+    Ghazali</label></li>
+    <li><label><input type="checkbox" />من أدب الإسلام - عبد الفتاح أبو
+    غدة</label></li>
     </ul>
-    <section class="footnotes" role="doc-endnotes">
+    <section id="footnotes" class="footnotes footnotes-end-of-document"
+    role="doc-endnotes">
     <hr />
     <ol>
-    <li id="fn1" role="doc-endnote"><p><a href="thoughts.on-hope">On Marmeladov’s rant (hope)</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+    <li id="fn1"><p><a href="thoughts.on-hope">On Marmeladov’s rant
+    (hope)</a><a href="#fnref1" class="footnote-back"
+    role="doc-backlink">↩︎</a></p></li>
     </ol>
     </section>
 

@@ -1,7 +1,10 @@
 ---
+id: r0zxttqt19i6nbsq7qscw58
 title: Reading list
+desc: ''
+updated: 1706629322212
+created: '2023-09-02 11:56'
 author: huscous
-created: 2023-09-02 11:56
 ---
 
 ﷽

@@ -1,12 +1,15 @@
 ---
+id: p4cg8flfcguxbqmxyefnupa
 title: al-Wajīz - Preliminaries
-author: huscous
-created: 2023-09-16 15:08
+desc: ''
+updated: 1706629322254
+created: '2023-09-16 15:08'
 tags:
   - usululfiqh
   - notes
   - studies
   - alwajeez
+author: huscous
 ---
 
 

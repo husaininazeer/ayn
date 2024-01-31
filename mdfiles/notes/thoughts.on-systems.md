@@ -1,8 +1,10 @@
 ---
+id: 5xfvd7mo4oxg0uwrcgf33uw
 title: On Systems
-desc: 'Thoughts on why systems work'
+desc: Thoughts on why systems work
+updated: 1706629322229
+created: '2023-09-01 23:05'
 author: huscous
-created: 2023-09-01 23:05
 ---
 
 By systems, I mean a set of instructions that if followed, allow one to achieve the desired end result in a more efficient manner. I can not think of component of my life that does not have a system. Maybe relationships, but that's a can of worms that should not be opened on the internet. Note-taking? Sure, Vim to text edit, alternate between using my own bash scripts, and using [dendron](htpps://www.dendron.so/). Qur\'an memorisation? Every Muslim nation has it's own flavour! The subcontinent method (having 3 concurrent components that should be catered to: the *sabaq*, *sabaq juz*, and the *dhor*). For the poor confused Arab/non-Desi, the new hifdh, the recent hifdh (also known as *murāji\'ah*), the old hifdh (revision or *wird*). I hear that the Egyptians (God bless them) place less of an imporance on the latter, but instead focus on getting the student to complete multiple *khatms* as quick as possible.

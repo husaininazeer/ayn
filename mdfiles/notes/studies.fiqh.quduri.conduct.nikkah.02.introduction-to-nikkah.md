@@ -1,12 +1,15 @@
 ---
+id: tyflb767zaptntsijye5kbs
 title: Qudūrī - Nikkāh - Introduction to Nikkah
-author: huscous
-created: 2023-09-14 06:25
+desc: ''
+updated: 1706629322291
+created: '2023-09-14 06:25'
 tags:
   - fiqh
   - notes
   - nikkah
   - quduri
+author: huscous
 ---
 
 > فانكحوا ما طاب لكم من النساء - النساء ٣

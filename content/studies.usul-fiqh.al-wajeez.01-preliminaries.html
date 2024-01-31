@@ -11,12 +11,166 @@
 
   <title>al-Wajīz - Preliminaries</title>
   <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiri">
@@ -189,7 +343,8 @@
       
 
     
-    <h2 id="thoughts-on-the-books-of-usul-al-fiqh">Thoughts on the books of usul al-fiqh</h2>
+    <h2 id="thoughts-on-the-books-of-usul-al-fiqh">Thoughts on the books
+    of usul al-fiqh</h2>
     <ul>
     <li>book by عبد الوهاب خلاف is too theoretical</li>
     <li>classical books are not accessible
@@ -206,7 +361,8 @@
     </ul></li>
     </ul></li>
     </ul>
-    <h2 id="on-the-books-that-the-author-wrote">On the books that the author wrote</h2>
+    <h2 id="on-the-books-that-the-author-wrote">On the books that the
+    author wrote</h2>
     <ul>
     <li>فقه الإسلام وأدلته - د. وهبة الزحيلي</li>
     <li>أصول الفقه - د. وهبة الزجيلي
@@ -214,17 +370,47 @@
     <li>summarises with الوجيز</li>
     </ul></li>
     </ul>
-    <h2 id="what-is-the-definition-of-أصول-الفقه">What is the definition of أصول الفقه ?</h2>
+    <h2 id="what-is-the-definition-of-أصول-الفقه">What is the definition
+    of أصول الفقه ?</h2>
     <blockquote>
-    <p>القواعد التي يتوصل المجتهد إلى استنباط الأحكام الشرعية العملية من أدلتها التفصيلية</p>
-    <p>It is principles that are used by the <em>Mujtahid</em> to derive legal rulings related to conduct from detailed sources</p>
+    <p>القواعد التي يتوصل المجتهد إلى استنباط الأحكام الشرعية العملية من
+    أدلتها التفصيلية</p>
+    <p>It is principles that are used by the <em>Mujtahid</em> to derive
+    legal rulings related to conduct from detailed sources</p>
     </blockquote>
-    <h3 id="what-do-the-terms-القواعد-المجتهد-الأحكام-الأدلة-mean">What do the terms القواعد، المجتهد، الأحكام، الأدلة mean?</h3>
-    <p>By principles we mean universal rules that contain specific rulings. Examples of these principles include “الأمر للوجوب” or “النهي للتحريم”. These principled should be used by the <em>Mujtahid</em> - someone who has the ability to do <em>Ijtihād</em>. i.e. someone who has is able to apply these principles and uses them as a means to understanding legal rulings and their benefit from the sources. The legal rulings are the result of the derivation (of the <em>Mujtahid</em>). This is connected to the actions of those who are legally responsible worshippers according to the Sharī’ah. These can be: - obligatory الإيجاب - prohibitive التحريم - permissible الإباحة - recommended الندب - disliked الكراهة These rulings are الأحكام العملية which are different to rulings related to beliefs (belief in God, His Oneness, His angels, His messengers etc). Evidences are of two types الأدلة التفصيلية that are specifically connected to an issue (whose ruling is sought), and the evidence <strong>must</strong> by itself indicate to the ruling, and الأدلة الإجمالية - evidences that are not specifically connected to an issue, and do not indicate to the ruling by themselves. An example of both respectively: - prohibition of marrying mothers: حرمت عليكم أمهاتكم - the statement “the sources of legal rulings are the Qurān, Sunnah, legal consensus, and legal reasoning” The former is the topic of research for the <em>Faqīh</em> and the latter for the <em>Uṣūlī</em>.</p>
-    <h2 id="what-is-the-subject-matter-of-أصول-الفقه">What is the subject matter of أصول الفقه?</h2>
-    <p>The subject matter is two: - legal evidences from the perspective of it being a tool for derivation - legal rulings from the perspective of it being the result of the derivation</p>
+    <h3 id="what-do-the-terms-القواعد-المجتهد-الأحكام-الأدلة-mean">What
+    do the terms القواعد، المجتهد، الأحكام، الأدلة mean?</h3>
+    <p>By principles we mean universal rules that contain specific
+    rulings. Examples of these principles include “الأمر للوجوب” or
+    “النهي للتحريم”. These principled should be used by the
+    <em>Mujtahid</em> - someone who has the ability to do
+    <em>Ijtihād</em>. i.e. someone who has is able to apply these
+    principles and uses them as a means to understanding legal rulings
+    and their benefit from the sources. The legal rulings are the result
+    of the derivation (of the <em>Mujtahid</em>). This is connected to
+    the actions of those who are legally responsible worshippers
+    according to the Sharī’ah. These can be: - obligatory الإيجاب -
+    prohibitive التحريم - permissible الإباحة - recommended الندب -
+    disliked الكراهة These rulings are الأحكام العملية which are
+    different to rulings related to beliefs (belief in God, His Oneness,
+    His angels, His messengers etc). Evidences are of two types الأدلة
+    التفصيلية that are specifically connected to an issue (whose ruling
+    is sought), and the evidence <strong>must</strong> by itself
+    indicate to the ruling, and الأدلة الإجمالية - evidences that are
+    not specifically connected to an issue, and do not indicate to the
+    ruling by themselves. An example of both respectively: - prohibition
+    of marrying mothers: حرمت عليكم أمهاتكم - the statement “the sources
+    of legal rulings are the Qurān, Sunnah, legal consensus, and legal
+    reasoning” The former is the topic of research for the
+    <em>Faqīh</em> and the latter for the <em>Uṣūlī</em>.</p>
+    <h2 id="what-is-the-subject-matter-of-أصول-الفقه">What is the
+    subject matter of أصول الفقه?</h2>
+    <p>The subject matter is two: - legal evidences from the perspective
+    of it being a tool for derivation - legal rulings from the
+    perspective of it being the result of the derivation</p>
     <h2 id="questions">questions</h2>
-    <p>why did the author specify worshippers too in the definition of ahkam?</p>
+    <p>why did the author specify worshippers too in the definition of
+    ahkam?</p>
 
     <hr/>
 

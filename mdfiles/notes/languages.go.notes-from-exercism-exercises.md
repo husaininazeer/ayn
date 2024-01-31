@@ -1,8 +1,14 @@
 ---
+id: frzpcgt45ltdbdqejwgaure
 title: Notes from Excersim
+desc: ''
+updated: 1706629322236
+created: '2023-08-24 10:52'
+tags:
+  - go
+  - programming
+  - notes
 author: huscous
-created: 2023-08-24 10:52
-tags: [go, programming, notes]
 ---
 
 ## How to write a function in Go?

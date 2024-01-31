@@ -1,11 +1,14 @@
 ---
+id: clfj3eic43jwgqyewcxdz2y
 title: Taysīr Muṣṭalaḥ al-Ḥadīth - Introduction to volume one
-author: huscous
-created: 2023-09-16 19:47
+desc: ''
+updated: 1706629322260
+created: '2023-09-16 19:47'
 tags:
   - hadith
   - studies
   - translations
+author: huscous
 ---
 
 ﷽

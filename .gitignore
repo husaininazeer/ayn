@@ -1,1 +1,5 @@
-mdfiles/personal.*
+mdfiles/notes/personal.*
+mdfiles/dendron*
+mdfiles/.git*
+.DS_STORE
+

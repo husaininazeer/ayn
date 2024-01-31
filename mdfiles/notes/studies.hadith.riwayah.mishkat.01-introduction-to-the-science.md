@@ -1,11 +1,14 @@
 ---
+id: szd5esme1vgq0z9gwq876zq
 title: Mishkāt - Preliminaries
-author: huscous
-created: 2023-09-15 08:16
+desc: ''
+updated: 1706629322276
+created: '2023-09-15 08:16'
 tags:
   - hadith
   - notes
   - mishkaat
+author: huscous
 ---
 
 ## Where did the discipline of ḥadīth emerge from? Why?

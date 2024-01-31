@@ -7,14 +7,168 @@
 
 
 
-  <title>ayn</title>
+  <title>Index</title>
   <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiri">
@@ -176,11 +330,11 @@
 
   
   <div class="content">
-      <h1 class="title">ayn</h1>
+      <h1 class="title">Index</h1>
 
       <span class="metadataBox">
         
-        
+        | 1706629314924 
       </span>
 
 
@@ -190,26 +344,42 @@
     <p>﷽</p>
     <p>What you may or may not see:</p>
     <ul>
-    <li>notes <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> (both technical and uloomi)</li>
+    <li>notes <a href="#fn1" class="footnote-ref" id="fnref1"
+    role="doc-noteref"><sup>1</sup></a> (both technical and uloomi)</li>
     <li>musings</li>
     <li>poetry</li>
     </ul>
-    <p>I figure this would be a nice time capsule for me to look back at and be grateful for. To see myself hopefully being lifted away from the darkness and into the light.</p>
-    <p>I was inspired to do this after seeing a <a href="https://twitter.com/darsdiary">Twitter</a>, but felt Twitter is too noisy for this kind of content. Ergo, ayn.</p>
+    <p>I figure this would be a nice time capsule for me to look back at
+    and be grateful for. To see myself hopefully being lifted away from
+    the darkness and into the light.</p>
+    <p>I was inspired to do this after seeing a <a
+    href="https://twitter.com/darsdiary">Twitter</a>, but felt Twitter
+    is too noisy for this kind of content. Ergo, ayn.</p>
     <p>All feedback is much appreciated.</p>
     <h3 id="why-the-name-ع-and-how">Why the name ع and how?</h3>
     <ul>
-    <li>The name of first dictionary in Arabic (written by the al-Khalil)</li>
+    <li>The name of first dictionary in Arabic (written by the
+    al-Khalil)</li>
     <li>To know - علم - يعلم - a word that begins with ع</li>
     <li>The sheer number of meanings this one word carries</li>
     </ul>
-    <p>I built ayn writing in <a href="https://pandoc.org/MANUAL.html">pandoc</a> markdown, to allow for easy conversion into html. Then a couple of shell scripts later, I deployed.</p>
+    <p>I built ayn writing in <a
+    href="https://pandoc.org/MANUAL.html">pandoc</a> markdown, to allow
+    for easy conversion into html. Then a couple of shell scripts later,
+    I deployed.</p>
     <hr />
-    <p>اللهم صل علي حبينا محمد الفاتح لما أغلق، والخاتم لما سبق، ناصر الحق بالحق، والهادي إلى صراطك المستقم، وعلى آله حق قدره مقداره العظيم</p>
-    <section class="footnotes" role="doc-endnotes">
+    <p>اللهم صل علي حبينا محمد الفاتح لما أغلق، والخاتم لما سبق، ناصر
+    الحق بالحق، والهادي إلى صراطك المستقم، وعلى آله حق قدره مقداره
+    العظيم</p>
+    <section id="footnotes" class="footnotes footnotes-end-of-document"
+    role="doc-endnotes">
     <hr />
     <ol>
-    <li id="fn1" role="doc-endnote"><p>I collate the things I learn from multiple places. Where appropriate, I will state my sources. Views are my own, and not representative of the institutions that I name/study in.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+    <li id="fn1"><p>I collate the things I learn from multiple places.
+    Where appropriate, I will state my sources. Views are my own, and
+    not representative of the institutions that I name/study in.<a
+    href="#fnref1" class="footnote-back"
+    role="doc-backlink">↩︎</a></p></li>
     </ol>
     </section>
 
