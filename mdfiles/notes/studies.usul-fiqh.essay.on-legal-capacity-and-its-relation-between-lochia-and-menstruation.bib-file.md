@@ -1,10 +1,12 @@
 ---
 id: ztp1ybyionpesjmm7yxx32t
-title: Bib file for 'On Legal Capacity and its Relation Between Lochia and Menstruation'
+title: >-
+  Bib file for 'On Legal Capacity and its Relation Between Lochia and
+  Menstruation'
 desc: ''
-author: 'huscous'
 updated: 1706735408402
 created: 1706734958017
+author: huscous
 ---
 
 ```bib

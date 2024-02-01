@@ -2,7 +2,7 @@
 id: tyflb767zaptntsijye5kbs
 title: Qudūrī - Nikkāh - Introduction to Nikkah
 desc: ''
-updated: 1706629322291
+updated: 1706742919533
 created: '2023-09-14 06:25'
 tags:
   - fiqh

@@ -1,13 +1,20 @@
 ---
 id: lit2q7wewb1b91nqdu2wivn
 title: On Legal Capacity and Its Relation between Lochia and Menstruation
-desc: 'Legal capacity plays an significant role in the establishment of responsibility over the *mahkūm alayh*, which itself is central to discussions in legal theory (Usūl al-Fiqh). Some types of legal capacities are subject to change due to external factors that affect an individual and their relationship with The Lawgiver and other human beings. This paper introduces legal capacities, menstruation, lochia, and the effect the latter two have on the former.'
-author: 'huscous'
+desc: >-
+  Legal capacity plays an significant role in the establishment of
+  responsibility over the *mahkūm alayh*, which itself is central to discussions
+  in legal theory (Usūl al-Fiqh). Some types of legal capacities are subject to
+  change due to external factors that affect an individual and their
+  relationship with The Lawgiver and other human beings. This paper introduces
+  legal capacities, menstruation, lochia, and the effect the latter two have on
+  the former.
 updated: 1706735491281
 created: 1706734506566
 tags:
-    - usul-fiqh
-    - essays
+  - usul-fiqh
+  - essays
+author: huscous
 ---
 
 [Bib file](studies.usul-fiqh.essay.on-legal-capacity-and-its-relation-between-lochia-and-menstruation.bib-file.md) to export into LaTeX
